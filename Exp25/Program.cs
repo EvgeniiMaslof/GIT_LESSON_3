@@ -7,10 +7,11 @@ Console.Write("Введите число А: ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int B = Convert.ToInt32(Console.ReadLine());
+int num = 1;
 int i = 1;
 while (i <= B)
 {
-    A = A * A;
+    num = num * A;
     i++;
 }
 Console.Write(A);
